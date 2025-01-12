@@ -1,0 +1,16 @@
+    spring:
+      datasource:
+        url: jdbc:postgresql://localhost:5432/booking_system_db
+        username: postgres
+        password: 1999
+        driver-class-name: org.postgresql.Driver
+      jpa:
+        hibernate:
+          ddl-auto: create-drop
+        database: postgresql
+        show-sql: true
+
+      security:
+        user:
+          name: "tha"
+          password: "123"
